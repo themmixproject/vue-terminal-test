@@ -1,15 +1,13 @@
 <template>
-    <img alt="Vue logo" src="./assets/logo.png" />
-    <HelloWorld msg="Welcome to Your Vue.js App" />
+    <terminal-window></terminal-window>
 </template>
 
 <script>
-import HelloWorld from "./components/HelloWorld.vue";
-
+import TerminalWindow from "./components/TerminalWindow.vue";
 export default {
     name: "App",
     components: {
-        HelloWorld,
+        TerminalWindow,
     },
 };
 </script>
